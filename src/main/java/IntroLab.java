@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 /**
  * This file contains a few exercises to familiarize you with Java.
  * <p>
@@ -33,6 +35,10 @@ public class IntroLab {
         return message_to_print + message;
     }
 
+    public static String sidsbranch() {
+        return printLabMessage("Hey", "Sid", false, "Nice to meet all of you");
+    }
+
     /* TODO: In the space below, write your our method.
      *       The method should be named with your utorID and should call
      *       printLabMessage with some parameters.
@@ -53,6 +59,8 @@ public class IntroLab {
     public static void main(final String[] args) {
         System.out.println(exampleStudent());
 
+        System.out.println(sidsbranch());
+
         /* TODO: Add a call to the method you wrote in this main method,
          *        and print the results of it.
          *
@@ -62,7 +70,6 @@ public class IntroLab {
 
 
     }
-
     // TODO: Go to test/java/IntroLabTest.java afterwards and complete the TODO.
 
 }
