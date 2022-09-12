@@ -40,6 +40,12 @@ public class IntroLab {
      * As a reference, we've provided the sample method exampleStudent.
      * Make sure you document your method properly!
      */
+    /**
+     * A method that calls on printLabMessage with Jeffery-specific arguments passed in
+     */
+    public static String zhanjeff() {
+        return printLabMessage("Hello", "Jeffery", true, "lol");
+    }
 
     /**
      * An example method that calls on printLabMessage.
