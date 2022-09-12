@@ -26,10 +26,10 @@ public class IntroLabTest {
     }
 
     @Test(timeout = 20)
-    public void testaryasidd() {
+    public void testsidsbranch() {
         String expected = "Hey! My name is Sid! " +
                 "I like dogs more than cats! Nice to meet all of you";
-        String actual = IntroLab.aryasidd();
+        String actual = IntroLab.sidsbranch();
         assertEquals(expected, actual);
     }
 
